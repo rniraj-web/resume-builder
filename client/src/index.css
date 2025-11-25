@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    background-image: linear-gradient(to bottom, #2a0150 0%, #090025 100%);
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
